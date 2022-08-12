@@ -1,0 +1,22 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #011a3b;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.container__header {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0 1px 1px 0 inset, rgba(33, 33, 206, 0.25) 0 50px 100px -20px, rgba(134, 20, 20, 0.3) 0 30px 60px -30px;
+}
+
+.container__body {
+  /*position: relative;*/
+  flex: 1;
+}
+

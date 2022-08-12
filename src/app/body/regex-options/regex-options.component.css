@@ -1,0 +1,59 @@
+.options__container {
+  background-color: #343f50;
+  border: 1px solid rgba(208, 202, 202, 0.67);
+  color: #d0caca;
+  border-radius: 5%;
+}
+
+.heading {
+  border-bottom: 1px solid rgba(245, 245, 245, 0.68);
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.heading h4 {
+  margin-left: 20px;
+}
+
+.flagSection {
+  display: flex;
+  padding: 10px;
+}
+
+.flagSection:hover {
+  background-color: #78808d;
+  border-radius: 10px;
+}
+
+.chb {
+  visibility: hidden;
+}
+
+.chb + label {
+  position: relative;
+  padding-left: 5px;
+  width: 100%;
+  cursor: pointer;
+  user-select: none;
+
+}
+
+.chb + label::after {
+  position: absolute;
+  left: 90%;
+  top: 2px;
+  content: " ";
+  width: 4px;
+  height: 10px;
+  transform: rotate(40deg);
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+
+.chb:checked + label::after {
+  top: 2px;
+  left: 90%;
+  border: 2px solid rgb(248, 112, 96);
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
